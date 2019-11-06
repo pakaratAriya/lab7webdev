@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const pool = mysql.createPool({
     host: 'us-cdbr-iron-east-05',
     user: 'b734bf2b717e37',
-    database: 'artistBook',
+    database: 'heroku_25164e32b44a522',
     password: '90b45c4a'
 });
 
