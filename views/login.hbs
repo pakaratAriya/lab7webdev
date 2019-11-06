@@ -1,0 +1,17 @@
+<div class="wrapper">
+    <h1>Member Login</h1>
+    <form action="/login" method='POST'>
+        <div class="formInput">
+            <i class="fa fa-user fa-2x"></i>
+            <input id="nameInput" class="loginInput" type="text" name="username" placeholder="username">
+        </div>
+        <div class="formInput">
+            <i class="fa fa-lock fa-2x"></i>
+            <input id="passwordInput" class="loginInput" type="password" name="password" placeholder="password">
+        </div>
+        <input class="loginInput" type="submit" id="submitBtn" value="Login">
+    </form>
+    {{#if wrong}}
+        <h2 id="incorrect">Wrong username or password</h2>
+    {{/if}}
+</div>

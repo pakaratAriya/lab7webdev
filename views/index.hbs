@@ -1,0 +1,21 @@
+{{>logoutHeader}}
+<div class="art-dir">
+    <h2>Artist Directory</h2>
+    <input id="art-dir-text" type="text">
+    <input type="button" id="add-artist" value="Add">
+    <input type="button" id="search-artist" value="Search" onclick="search()">
+</div>
+<div id="adding-form">
+    <input id="artist-name" type="text" placeholder="Artist Name" name="name" required>
+    <input id="artist-about" type="text" placeholder="About artist" name="about" required>
+    <input id="artist-url" type="text" placeholder="Image url" name="url" required>
+    <button type="submit" id="add" onclick="add_artist()">Add</button>
+</div>
+    
+
+
+<div id="all-artist">
+
+</div>
+
+<script src="index.js"></script>
